@@ -3,7 +3,7 @@ import 'package:bookly/routes_names.dart';
 import 'package:bookly/features/splash/presentation/views/splash_view.dart';
 import 'package:flutter/material.dart';
 
-class Approuter {
+class AppRouter {
   static Route<dynamic> onGenerateRoute(RouteSettings settings) {
     switch (settings.name) {
       case RoutesNames.initial:
